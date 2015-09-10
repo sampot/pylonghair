@@ -55,3 +55,5 @@ class TestLonghair(unittest.TestCase):
         assert blocks[(k-1)][1] == data[offset:offset + block_size]
         # print('%r' % blocks[(k-1)][1])
 
+if __name__ == '__main__':
+    unittest.main()

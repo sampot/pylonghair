@@ -4,7 +4,9 @@
 #include "_longhair.h"
 #include "native/cauchy_256.h"
 
-
+/*
+ Converts data to suitable structure to pass to underlying encoding function.
+ */
 int _fec_encode(int k, int m, int block_size, unsigned char* data, unsigned char* parity)
 {
     const unsigned char *data_ptrs[256];
